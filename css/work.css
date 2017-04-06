@@ -26,3 +26,22 @@
     background-color: hotpink;
     color: white;
 }
+
+#image {
+    width: 379px;
+    height: 251px;
+    display: inherit;
+    float: right;
+    position:relative;
+    top: 150px;
+    right: -200px;
+    height: 20px;
+}
+
+#hand {
+    width: 379px;
+    height: 251px;
+    display: block;
+   margin-left: inherit;
+    top: 40px;
+}
