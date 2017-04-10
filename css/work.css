@@ -28,20 +28,24 @@
 }
 
 #image {
-    width: 379px;
-    height: 251px;
-    display: inherit;
-    float: right;
-    position:relative;
-    top: 150px;
-    right: -200px;
-    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    margin-top: auto;
+    top: 60px;
 }
 
-#hand {
-    width: 379px;
-    height: 251px;
-    display: block;
-   margin-left: inherit;
-    top: 40px;
+.image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+box {
+   padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
