@@ -1,3 +1,8 @@
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
+}
+
 #main_container {
     width: 1024px;
     margin-left: auto;
@@ -42,6 +47,9 @@
   height: 170px;
   color: black;
   -moz-box-shadow: 2px 2px 1px black;
+    font-weight: 100;
+    font-family: sans-serif;
+    font: futura;
 }
 
 /* Style the links inside the navigation bar */
@@ -53,6 +61,9 @@
     padding: 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 /* Change the color of links on hover */
@@ -68,12 +79,18 @@
   background-color:white;
   color:black;
   -moz-box-shadow: 2px 2px 1px black;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 .menuButton {
@@ -97,6 +114,9 @@
   -moz-box-shadow: 2px 2px 1px black;
   padding: 2px 4px;
   border: solid 1px black;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 .menuButton:hover {
@@ -110,10 +130,14 @@
   -o-transition-duration: 1s;
   background-color:white;
   -moz-box-shadow: 2px 2px 1px black;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 form {
     background-color:pink;
+  color: black;
 }
 
 /* Style all font awesome icons */
