@@ -3,9 +3,11 @@ body {
   font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
 }
 
-h1 {
-    color: black;
+body {
+    background-image: url(https://lh5.googleusercontent.com/RywW-TCuDoCnldZKg_zadfhBZzcmQWe-SkzbyJ1nvT0hoTXd2bGWqef0wfG96MA0enZVzQ=w1920-h862);
+    background-size: cover;
 }
+
 .topnav {
   position: relative;
   width: 150px;
@@ -60,7 +62,7 @@ h1 {
   -o-transition-property: background-color, color;
   -o-transition-duration: 1s;
   text-align: left;
-  background-color: pink;
+  background-color: powderblue;
   left: 5px;
   top: 5px;
   height: 26px;
@@ -90,11 +92,11 @@ h1 {
 
 #box {
     font-weight: 100;
-    color: black;
+    color: white;
 }
 
 body {
-    color: black;
+    color: white;
     font-weight: 100;
 }
 
@@ -113,4 +115,3 @@ p {
     margin-left: 0%;
     width: 100%;
   }
-}

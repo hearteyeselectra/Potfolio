@@ -1,3 +1,8 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/JgLXF5Y0IeoctdjW71NRwzNnHpvnq0bgpa13wRSANqGU8qoaNSqRayW9dIDU2KmqONzQPg=w1924-h889);
+    background-size: cover;
+}
+
 .topnav {
      position: relative;
   width: 150px;
@@ -51,7 +56,7 @@
   -o-transition-property: background-color, color;
   -o-transition-duration: 1s;
   text-align: left;
-  background-color: pink;
+  background-color: powderblue;
   left: 5px;
   top: 5px;
   height: 26px;
@@ -127,6 +132,6 @@ body {
 
 #box {
     font-weight: 100;
-    color: black;
+    color: white;
     font-style: normal;
 }

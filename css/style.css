@@ -3,42 +3,15 @@ body {
   font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
 }
 
+body {
+    background-image: url(https://gm1.ggpht.com/GrCWNqX91jkOyjkIGGZCqn9qiBSXX-MZ22gxitxCNDkygoxU8cuqxZcIZZ2CWh7erndm3pjrKAg2niesxQFn-Gl9bpuq77uZ15E9D0ldHtm0Q8VPP-aDoQvoLHuc0pUYGo912GaSN5KzrimaWSsJXjMBC_ylCqpegBkZQfuKSEkdfpmF3q891gkTEnCEA_hLCLDQ0EfFORkLOwcQQGnSnXYa8Vn_DK-L0tYD0ZQ973aAfjLzLieFnbsmy6JeXET3_alW95Si112waGpcXaY15UInH9LZgGhCdJvpKijUAStwlEZ_4ehnvkzWQUQ2dbs2yG4WDD2x-AgUIVSrsZjYsihGAiMk5ZDvYB9yuxbC-Vd5dWV33YCFbiaJHeVvLe3s3tUzg0d-WDn0wXp769EulZaqSi99oj4DX94oqUKULmxIrUyKafF4RKXxL0YL7QF1Ew2t2ZyYu1pxFcpeLVDulIDwIAz3_CgWbyeqT5QdrzDZjcBV2PtLyZFDk4Z1B7LVOjeotxWVgAUTT014mVGDiW4marxe5yct-0_yKz-66N7wp_1PE-hlwax-bLLWoAC5GT3dtTrvf9cAOSFvl3lpWkYa5KQww3b2UZlaTBi8dvvckGBbE7tpB9LWFbVcgTk6BrQpQfbjwUG4B3K6NxaabyHf1IRL4y_hmDyYOnkPb-gDSBP9YG8vZxq9CJhN7RI7yXGItQ=s0-l75-ft-l75-ft);
+    background-size: cover;
+}
+
 #main_container {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
-}
-
-#logo {
-    width: 379px;
-    height: 251px;
-    display: inherit;
-    position:relative;
-    height: 50px;
-    padding: 10px;
-   position:absolute;
-    left: 170px;
-}
-
-#image {
-    width: 379px;
-    height: 251px;
-    display: inherit;
-    float: right;
-    position:relative;
-    top:-135.7px;
-    right: -200px;
-    height: 20px;
- }
-
-#selfie {
-    width: 379px;
-    height: 251px;
-    display: inherit;
-    float: right;
-    position:relative;
-    top:-10px;
-    height: 20px;
 }
 
 .topnav {
@@ -103,7 +76,7 @@ body {
   -o-transition-property: background-color, color;
   -o-transition-duration: 1s;
   text-align: left;
-  background-color: pink;
+  background-color: powderblue;
   left: 5px;
   height: 26px;
   color: white;
@@ -133,52 +106,4 @@ body {
     font-weight: 100;
      font-family: sans-serif;
     font: futura;
-}
-
-form {
-    background-color:pink;
-  color: black;
-}
-
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-tumblr {
-    background: #35465c;
-    color: white;
-}
-
-.fa-google {
-    background: #d34836;
-    color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
 }
