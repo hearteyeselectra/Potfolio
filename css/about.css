@@ -3,8 +3,8 @@ body {
   font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
 }
 
-body {
-    background-image: url(https://lh5.googleusercontent.com/RywW-TCuDoCnldZKg_zadfhBZzcmQWe-SkzbyJ1nvT0hoTXd2bGWqef0wfG96MA0enZVzQ=w1920-h862);
+body background {
+    background: url("https://lh6.googleusercontent.com/_kk6CkMj2er4NVrtmbF243SNAz5SEZOrisrwRO3wvi4p7Gy9KKNcWkveJsxkz1sHC-nDhA=w1920-h931");
     background-size: cover;
 }
 

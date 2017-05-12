@@ -1,6 +1,82 @@
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
 body {
-    background-image: url(https://lh3.googleusercontent.com/JgLXF5Y0IeoctdjW71NRwzNnHpvnq0bgpa13wRSANqGU8qoaNSqRayW9dIDU2KmqONzQPg=w1924-h889);
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url(https://lh6.googleusercontent.com/q1A5Nj3yhthkCvz5WW1gmW2cG-XV2xWgTpOxclMCi-vlzi12USuUIGVxABOBgAdpvzzJmg=w1921-h933);
     background-size: cover;
+    font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
+}
+
+#main_container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .topnav {
@@ -10,6 +86,8 @@ body {
   color: black;
   -moz-box-shadow: 2px 2px 1px black;
     font-weight: 100;
+    font-family: sans-serif;
+    font: futura;
 }
 
 /* Style the links inside the navigation bar */
@@ -22,6 +100,8 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 /* Change the color of links on hover */
@@ -37,6 +117,9 @@ body {
   background-color:white;
   color:black;
   -moz-box-shadow: 2px 2px 1px black;
+    font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 /* Add a color to the active/current link */
@@ -44,6 +127,8 @@ body {
     background-color: #4CAF50;
     color: white;
     font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 .menuButton {
@@ -58,7 +143,6 @@ body {
   text-align: left;
   background-color: powderblue;
   left: 5px;
-  top: 5px;
   height: 26px;
   color: white;
   border-color: black;
@@ -69,6 +153,8 @@ body {
   padding: 2px 4px;
   border: solid 1px black;
     font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
 
 .menuButton:hover {
@@ -83,7 +169,10 @@ body {
   background-color:white;
   -moz-box-shadow: 2px 2px 1px black;
     font-weight: 100;
+     font-family: sans-serif;
+    font: futura;
 }
+
 
 #image {
     display: block;
@@ -110,9 +199,10 @@ body {
 }
 
 body {
-  color: #fff;
+  color: black;
   font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
 }
+
 .box {
   background: #2db34a;
   border-radius: 6px;
