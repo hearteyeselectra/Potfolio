@@ -3,16 +3,45 @@ body {
   font: 600 14px/24px "Open Sans", "Futura", "Futura Light", Sans-Serif;
 }
 
-body {
-    background-image: url(https://lh5.googleusercontent.com/e2LT8fTgip-fulJm0i41vazeEJQ8VrbY9qjlxVtisWmVYohjDblwb6JM9ief4s03FUqijQ=w1920-h933);
-    background-size: cover;
-}
-
 #main_container {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
+
+body{
+  overflow-x:hidden;
+}
+
+html {
+    background: url(file:///Users/s.yazmin.ortega/Desktop/portfolio_website/images/IMG_0421.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.cover {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+img.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  overflow-x: hidden;
+}
+
 
 .topnav {
      position: relative;
